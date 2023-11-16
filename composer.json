@@ -1,5 +1,5 @@
 {
-	"name": "alaminfirdows/laravel-editorjs",
+	"name": "p1613m/laravel-editorjs",
 	"description": "A simple editor.js html parser for Laravel",
 	"type": "library",
 	"license": "MIT",
@@ -11,7 +11,7 @@
 	],
 	"require": {
 		"php": "^7.2|^8.1",
-		"codex-team/editor.js": "v2.0.7",
+		"p1613m/editor.js": "v2.0.7",
 		"illuminate/support": "^8.0|^9.0|^10.0"
 	},
 	"require-dev": {
