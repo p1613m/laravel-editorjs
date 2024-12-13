@@ -35,7 +35,8 @@ class LaravelEditorJs
 
                 $renderedBlocks[] = View::make($viewName, [
                     'type' => $block['type'],
-                    'data' => $block['data']
+                    'data' => $block['data'],
+                    'tunes' => $block['tunes'] ?? []
                 ])->render();
             }
 
